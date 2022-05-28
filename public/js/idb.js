@@ -32,7 +32,7 @@ function saveRecord(record) {
     itemObjectStore.add(record)
 }
 
-//this function is not working!!!
+
 
 function uploadItem() {
     const transaction = db.transaction(['new_item'], 'readwrite')
