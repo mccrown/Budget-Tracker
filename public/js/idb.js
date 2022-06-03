@@ -32,8 +32,6 @@ function saveRecord(record) {
     itemObjectStore.add(record)
 }
 
-
-
 function uploadItem() {
     const transaction = db.transaction(['new_item'], 'readwrite')
     const itemObjectStore = transaction.objectStore('new_item')
@@ -42,7 +40,7 @@ function uploadItem() {
 
     getAll.onsuccess = function() {
         if(getAll.result.length > 0) {
-            //check url
+            
             fetch('/api/transaction', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
@@ -60,6 +58,7 @@ function uploadItem() {
                 const transaction = db.transaction(['new_item'], 'readwrite')
                 const itemObjectStore = transaction.objectStore('new_item')
                 itemObjectStore.clear()
+                alert('You are back online')
             })
             .catch(err => {
                 console.log(err)
