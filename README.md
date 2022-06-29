@@ -29,8 +29,10 @@
 
   ## Badges
 
-  ## Screenshot
+  ## Screenshot/Recording
   ![2022-06-03 14_06_33-Window](https://user-images.githubusercontent.com/6404921/171944547-417f330c-e6b6-4955-9f47-87cef670a755.jpg)
+
+  Video: https://drive.google.com/file/d/1uEJrwFoq2VQch3iPmCZ7mMaEStjTB_JI/view
   
   
 
